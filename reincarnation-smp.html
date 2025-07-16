@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reincarnation SMP - Nevanata</title>
+    <meta name="description" content="Experience an immersive survival multiplayer world">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                    </svg>
+                    <h1 class="logo-text">Nevanata</h1>
+                </a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="reincarnation-smp.html" class="nav-link active">Reincarnation SMP</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="smp-container">
+        <div class="back-link">
+            <a href="index.html" class="back-button">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m12 19-7-7 7-7"/>
+                    <path d="M19 12H5"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+
+        <div class="smp-content">
+            <!-- Header -->
+            <div class="smp-header">
+                <div class="smp-icon">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 9.95 9 11 5.16-1.05 9-5.45 9-11V7L12 2z"/>
+                        <path d="M12 8v8"/>
+                        <path d="M8 12h8"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                <h1 class="smp-title">Reincarnation SMP</h1>
+                <p class="smp-description">
+                    Welcome to our unique survival multiplayer server! Experience an immersive world filled with challenging adventures, and endless possibilities.
+                </p>
+            </div>
+
+            <!-- About Section -->
+            <div class="about-section">
+                <h2 class="section-title">About This Server</h2>
+                <p class="about-text">
+                    Reincarnation SMP offers a fresh take on survival multiplayer gameplay. 
+                    Our server features carefully crafted maps, maybe not so balanced gameplay mechanics, 
+                    and a friendly community of players (i hope) who share a passion for exploration and creativity.
+                </p>
+                <p class="about-text">
+                    Whether you're a seasoned veteran or new to survival gameplay, 
+                    you'll find something exciting to explore in our world. 
+                    Join us for epic adventures, collaborative builds, and unforgettable moments!
+                </p>
+            </div>
+
+            <!-- Maps Section -->
+            <div class="maps-section">
+                <h2 class="section-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/>
+                        <path d="M15 5.764v15"/>
+                        <path d="M9 3.236v15"/>
+                    </svg>
+                    Available Maps
+                </h2>
+                <div class="maps-grid">
+                    <div class="map-card overworld" onclick="handleMapClick('Overworld')">
+                        <div class="map-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="map-title">Overworld Maps</h3>
+                        <p class="map-description">Map Overworld yang di Update secara RealTime</p>
+                    </div>
+
+                    <div class="map-card nether" onclick="handleMapClick('Nether')">
+                        <div class="map-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="map-title">Nether Realm Maps</h3>
+                        <p class="map-description">Map Nether Realm yang di Update secara RealTime</p>
+                    </div>
+
+                    <div class="map-card end" onclick="handleMapClick('End')">
+                        <div class="map-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="map-title">End Dimension Maps</h3>
+                        <p class="map-description">Map End Dimension yang ter-Update secara RealTime</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <h2 class="cta-title">Ready to Start Your Adventure?</h2>
+                <p class="cta-text">
+                    Join our community and begin exploring these amazing worlds today!
+                </p>
+                <button class="cta-button" onclick="window.open('https://discord.gg/prXcc2hr9C', '_blank')">
+                    Join Our Discord
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
